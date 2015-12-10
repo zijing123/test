@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="GBK" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /> 
+<title>创建圈子第2步</title>
+<link rel="stylesheet" type="text/css" href="testCss.css" />
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
+<script type="text/javascript" src="testJS.js"></script>
+<script type="text/javascript">
+
+</script>
+</head>
+
+<body>
+
+  <form id="myform2" action="" >
+   <img id="img1" width="100%" src="img/Rectangle 479 + 2@2x.png" /><br />
+   
+	<div id="crediv2">
+	   <p id="p3">默认显示成员基本信息</p>
+			<ul id="tblist">
+			  <li>姓名</li>
+			  <li>手机</li>
+			  <li>城市</li>
+			  <li>标签</li>
+			</ul>
+		<br />
+	   <p id="p4">更多信息</p>
+		 
+		<table class="bdtab">
+		  <tr>
+			<td><button id="btn1" class="bdbtn">公司</button></td>
+			<td><button id="btn2" class="bdbtn">职务</button></td>
+			<td><button id="btn3" class="bdbtn">学校</button></td>
+		  </tr>
+		  <tr>
+			<td><input type="button" id="btn4" class="bdbtn" value="专业" onclick="changeColor()"></input></td>
+			<td><input type="button" id="btn5" class="bdbtn" value="星座"></input></td>
+			<td><input type="button" id="btn6" class="bdbtn" value="家乡"></input></td>
+		  </tr>
+		  <tr>
+			<td><input type="button" id="btn7" class="bdbtn" value="爱好"></input></td>
+			<td><input type="button" id="btn8" class="bdbtn" value="情感"></input></td>
+			<td><input type="button" id="btn9" class="addbtn" value="+" onClick="showmorediv()"></input></td>
+		  </tr>
+		</table>
+		<p id="p4">设置成员标签 <label id="labtext">可最多设置2个标签</label></p>
+	
+		<table class="bqtab">
+		
+		  <tr>
+			<td><button class="bqbtn">爱好</button></td>
+			<td><button class="addbqbtn">+</button></td>
+		  </tr>
+		</table>
+		<p id="p5">注：标签将显示在成员列表里</p>	
+		
+	</div>
+	<button class="nextn">下一步</button> 
+  </form>
+  
+  <div id="morediv">
+   <p>添加更多信息</p> 
+   <hr />
+   <input type="text" id="moreinfo" value="填写需要的信息" onFocus="hideval()" ></input>
+    <hr />
+    <p><span id="spaqx" onClick="hiddmorediv()"> 取消 </span>  <span id="spaqd" onClick="hidemorediv2()"> 确定</span>
+	</p>
+</div>
+
+<div id="hbg"></div>
+
+</body>
+</html>

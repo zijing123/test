@@ -1,0 +1,18 @@
+// JavaScript Document
+function createCircle(){
+   window.location.href="createCircle.html";
+}
+
+function changeColor(){
+   		
+      $("#btn4").removeClass("bdbtn");
+	  $("#btn4").addClass("bdbtn2");
+
+}
+
+function showmorediv(){
+	alert("111");
+	$("#hbg").show();
+  $("#morediv").show():
+   
+}
